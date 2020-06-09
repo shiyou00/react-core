@@ -1,11 +1,10 @@
 import React from 'react';
-import HelloMessage from "./components/hello/HelloMessage";
+import Core from "./components/core";
 
 function App() {
   return (
     <div className="App">
-    {/* 第一个组件 */}
-    <HelloMessage name={"第一个组件"}/>
+      <Core />
     </div>
   );
 }
