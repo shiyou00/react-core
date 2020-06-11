@@ -1,10 +1,10 @@
 import React from "react";
-import Sku from "./Sku";
+import Lazy from "./Lazy";
 
 function Ad() {
   return (
     <div className="App">
-      <Sku />
+      <Lazy />
     </div>
   );
 }
