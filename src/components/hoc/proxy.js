@@ -3,13 +3,7 @@ import React from 'react';
 function proxy(WrappedComponent) {
   return class extends React.Component {
     render() {
-      console.log(this.updater);
-      return (
-        <>
-          <div className="title">{this.props.title}</div>
-          <WrappedComponent {...this.props} />
-        </>
-      )
+      return <WrappedComponent {...this.props} />;
     }
   }
 }
